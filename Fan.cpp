@@ -6,7 +6,7 @@
 
 struct Fan
 {
-    int speed;
-    int radius;
-    std::string color;
+    int speed { 1 };
+    double radius { 1.53 };
+    std::string color { "green" };
 };
