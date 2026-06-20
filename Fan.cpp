@@ -9,6 +9,10 @@ struct Fan
     int speed { 1 };
     double radius { 1.53 };
     std::string color { "green" };
+
+    Fan() = default;
+
+    explicit Fan(double newRadius) : radius{ newRadius } {}
 };
 
 int main(void) {
