@@ -1,6 +1,7 @@
-//
-// Created by brian on 6/18/26.
-//
+// Course: CSCI 2503: Survey of Programming Languages
+// Student: Brian Abbott
+// Created on 6/18/26
+// Last Modified: 6/20/26
 
 #include <string>
 #include <format>
