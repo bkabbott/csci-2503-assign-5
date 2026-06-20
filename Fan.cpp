@@ -10,3 +10,7 @@ struct Fan
     double radius { 1.53 };
     std::string color { "green" };
 };
+
+int main(void) {
+    Fan fan;
+}
