@@ -19,7 +19,7 @@ struct Fan
     // convenience constructor
     explicit Fan(double newRadius) : radius{ newRadius } {}
 
-    std::string toString() const
+    [[nodiscard]] std::string toString() const
     {
         return std::format("A {:.2f} inch {} fan at a speed of {}",
                            radius, color, speed);
