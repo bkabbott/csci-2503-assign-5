@@ -36,7 +36,7 @@ struct Fan
 
 
 
-int main(void) {
+int main() {
     Fan defaultFan;
     Fan customFan{ 8.0 };
 
